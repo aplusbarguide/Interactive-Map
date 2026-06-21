@@ -211,6 +211,18 @@ function pinIcon(g){const c=GHEX[g]||"#9aa0a6";
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
 function popupHtml(b){
+  if(b.draft){
+    return `<div class="pp">
+      <div class="name">${esc(b.bar)}${b.alt?` / ${esc(b.alt)}`:""}</div>
+      <div class="loc">${esc(b.city)}, ${esc(b.country)}</div>
+      <span class="gbadge" style="background:${GHEX["NP"]}">Grade: In Progress</span>
+      <div class="rec" style="background:rgba(255,255,255,.05);border-color:var(--line)">Atmosphere, Drinks &amp; Service: <b>In Progress</b></div>
+      ${b.geo==="exact"?"":(b.country==="China"
+        ? `<div class="note">📍 No exact location available — use DaZhongDianPing (<a href="https://www.dianping.com/" target="_blank" rel="noopener" style="color:var(--accent)">大众点评</a>) to find location</div>`
+        : `<div class="note">📍 Approximate location${b.geo==="district"?" — district center":""}; exact spot not available</div>`)}
+      <div class="ig" style="background:var(--panel2);color:var(--muted);cursor:default">◎ Review In Progress</div>
+    </div>`;
+  }
   const hasIg=b.ig&&b.ig.trim();
   const ig=hasIg?b.ig.trim():IG_FALLBACK;
   const igLabel=hasIg?"Read full review":"Visit A+ Bar Guide";
@@ -255,7 +267,7 @@ function apply(){
 }
 
 function syncGradeChips(){
-  document.querySelectorAll(".gchip").forEach(el=>el.classList.toggle("on",state.grades.has(el.textContent)));
+  document.querySelectorAll(".gchip").forEach(el=>el.classList.toggle("on",state.grades.has(el.dataset.g)));
 }
 function zoomToFiltered(){
   const b=cluster.getBounds();
@@ -265,8 +277,9 @@ function zoomToFiltered(){
 function buildControls(){
   // grade chips
   const gc=document.getElementById("grades");
-  GRADES.forEach(g=>{const el=document.createElement("div");
-    el.className="gchip on";el.textContent=g;el.style.background=GHEX[g];
+  const present=new Set(BARS.map(b=>b.grade));   // only show grade chips that actually have bars
+  GRADES.filter(g=>present.has(g)).forEach(g=>{const el=document.createElement("div");
+    el.className="gchip on";el.dataset.g=g;el.textContent=(g==="NP"?"Unranked":g);el.style.background=GHEX[g];
     el.onclick=()=>{
       if(state.grades.size===GRADES.length){ state.grades=new Set([g]); }   // first click: isolate this grade
       else if(state.grades.has(g)){ state.grades.delete(g); if(state.grades.size===0) state.grades=new Set(GRADES); } // un-clicking the last one resets to all
@@ -294,7 +307,7 @@ function buildControls(){
     if(!matches.length){hideAC();return;}
     acEl.innerHTML=matches.map((m,i)=>{const b=m._bar;
       return `<div class="ac-item" data-i="${i}"><span class="dot" style="background:${GHEX[b.grade]}"></span>`+
-             `<span class="acn">${esc(b.bar)}</span><span class="acc">${esc(b.city)} · ${b.grade}</span></div>`;}).join("");
+             `<span class="acn">${esc(b.bar)}</span><span class="acc">${esc(b.city)} · ${b.draft?"In Progress":(b.grade==="NP"?"Unranked":b.grade)}</span></div>`;}).join("");
     acEl.style.display="block";
     [...acEl.children].forEach((el,i)=>el.onclick=()=>selectBar(matches[i]));
   }
@@ -314,7 +327,7 @@ function buildControls(){
   document.getElementById("fit").onclick=()=>{if(cluster.getLayers().length)map.fitBounds(cluster.getBounds().pad(.1));};
   // legend
   document.getElementById("legend").innerHTML="<b>Grades:</b> "+GRADES.map(g=>
-    `<span style="color:${GHEX[g]}">●</span> ${g}`).join("  ");
+    `<span style="color:${GHEX[g]}">●</span> ${g==="NP"?"Unranked":g}`).join("  ");
   // mobile toggle
   document.getElementById("fbtn").onclick=()=>document.getElementById("panel").classList.toggle("open");
 }
