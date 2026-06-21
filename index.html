@@ -28,9 +28,10 @@
   .brand h1{font-size:16px;margin:0;font-weight:700;letter-spacing:.2px}
   .brand a{color:var(--muted);text-decoration:none;font-size:12px}
   .brand a:hover{color:var(--accent)}
-  .count{pointer-events:auto;margin-left:auto;font-size:12px;color:var(--muted);background:rgba(23,26,33,.85);
-    border:1px solid var(--line);padding:6px 10px;border-radius:20px}
-  .count b{color:var(--txt)}
+  .count{pointer-events:auto;margin-left:auto;font-size:13px;font-weight:600;color:var(--txt);
+    background:rgba(212,175,55,.12);border:1.5px solid var(--accent);padding:8px 16px;border-radius:24px;
+    box-shadow:0 2px 14px rgba(0,0,0,.4);display:flex;align-items:baseline;gap:6px}
+  .count b{color:var(--accent);font-size:20px;font-weight:800;line-height:1}
 
   /* Filter toggle (mobile) */
   .fbtn{pointer-events:auto;display:none;align-items:center;gap:6px;background:var(--accent);color:#1a1300;
@@ -44,6 +45,15 @@
   .search{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);
     color:var(--txt);font-size:14px;outline:none}
   .search:focus{border-color:var(--accent)}
+  .searchwrap{position:relative}
+  .ac{position:absolute;top:100%;left:0;right:0;margin-top:5px;background:var(--panel2);border:1px solid var(--line);
+    border-radius:10px;max-height:260px;overflow:auto;z-index:30;display:none;box-shadow:0 10px 30px rgba(0,0,0,.55)}
+  .ac-item{display:flex;align-items:center;gap:9px;padding:9px 11px;cursor:pointer;border-bottom:1px solid var(--line)}
+  .ac-item:last-child{border-bottom:none}
+  .ac-item:hover{background:rgba(212,175,55,.14)}
+  .ac .dot{width:10px;height:10px;border-radius:50%;flex:none;border:1px solid rgba(0,0,0,.3)}
+  .ac .acn{font-weight:600;font-size:13px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ac .acc{color:var(--muted);font-size:11px;flex:none}
   select{width:100%;padding:9px 10px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);
     color:var(--txt);font-size:13px;outline:none;margin-top:6px}
   select:focus{border-color:var(--accent)}
@@ -83,6 +93,30 @@
     font-size:13px;padding:9px;border-radius:10px}
   .pp .ig:active{opacity:.85}
   .leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+  .pp .report{display:flex;gap:6px;margin-top:8px}
+  .pp .report button{flex:1;background:var(--panel2);border:1px solid var(--line);color:var(--muted);
+    font-size:11px;padding:7px 4px;border-radius:8px;cursor:pointer}
+  .pp .report button:hover{color:var(--txt);border-color:var(--accent)}
+  /* report modal */
+  .modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:2000;display:none;align-items:center;justify-content:center;padding:20px}
+  .modal-bg.open{display:flex}
+  .modal{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;width:340px;max-width:100%;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+  .modal h3{margin:0 0 10px;font-size:16px}
+  .modal .mtxt{font-size:13px;color:var(--muted);margin:0 0 12px}
+  .modal .mtxt b{color:var(--txt)}
+  .modal textarea{width:100%;min-height:70px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;color:var(--txt);padding:9px;font-size:13px;font-family:inherit;resize:vertical;outline:none;box-sizing:border-box}
+  .modal textarea:focus{border-color:var(--accent)}
+  .mbtns{display:flex;gap:8px;margin-top:12px}
+  .mbtns button{flex:1;padding:9px;border-radius:9px;border:1px solid var(--line);font-size:13px;cursor:pointer;font-weight:600}
+  .mcancel{background:var(--panel2);color:var(--muted)}
+  .msend{background:var(--accent);color:#1a1300;border-color:var(--accent)}
+  .locbar{position:fixed;bottom:0;left:0;right:0;z-index:1500;background:var(--panel);border-top:1.5px solid var(--accent);padding:12px 14px;display:none;align-items:center;gap:10px;box-shadow:0 -4px 20px rgba(0,0,0,.5)}
+  .locbar.open{display:flex}
+  .locbar .lt{flex:1;font-size:13px}
+  .locbar .lt b{color:var(--accent)}
+  .locbar button{padding:8px 14px;border-radius:9px;border:1px solid var(--line);font-size:13px;cursor:pointer;font-weight:600}
+  .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--accent);color:#1a1300;font-weight:700;padding:10px 18px;border-radius:24px;z-index:3000;box-shadow:0 6px 24px rgba(0,0,0,.5);display:none}
+  .toast.open{display:block}
 
   @media (max-width:640px){
     .panel{top:auto;bottom:0;left:0;right:0;width:auto;border-radius:18px 18px 0 0;max-height:62%;
@@ -113,7 +147,10 @@
 <div class="panel" id="panel">
   <div class="sec">
     <h2>Search</h2>
-    <input class="search" id="q" placeholder="Bar name…" autocomplete="off" />
+    <div class="searchwrap">
+      <input class="search" id="q" placeholder="Bar name…" autocomplete="off" />
+      <div class="ac" id="ac"></div>
+    </div>
   </div>
   <div class="sec">
     <h2>Grade</h2>
@@ -134,6 +171,14 @@
 </div>
 <div class="credit">A+ Bar Guide · personal reviews</div>
 
+<div class="modal-bg" id="modalbg"><div class="modal" id="modal"></div></div>
+<div class="locbar" id="locbar">
+  <span class="lt" id="loctext"></span>
+  <button class="mcancel" id="loccancel">Cancel</button>
+  <button class="msend" id="locsubmit">Submit location</button>
+</div>
+<div class="toast" id="toast"></div>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
@@ -144,9 +189,9 @@ const GHEX={"A+":"#d4af37","A":"#2e9e4f","A-":"#7cc46a","B+":"#1f7ae0","B":"#4aa
   "B-":"#9fc8f5","C+":"#f08a24","C":"#e8601c","C-":"#d23b3b","NP":"#9aa0a6"};
 const IG_FALLBACK="https://instagram.com/aplus_barguide";
 
-const map=L.map("map",{zoomControl:true,minZoom:2,maxBounds:[[-85,-180],[85,180]],maxBoundsViscosity:1.0}).setView([25,30],2);
+const map=L.map("map",{zoomControl:true,worldCopyJump:true}).setView([25,30],2);
 L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{
-  attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:"abcd",maxZoom:19,noWrap:true,bounds:[[-90,-180],[90,180]]}).addTo(map);
+  attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:"abcd",maxZoom:19}).addTo(map);
 
 const cluster=L.markerClusterGroup({maxClusterRadius:45,spiderfyOnMaxZoom:true,showCoverageOnHover:false,
   iconCreateFunction:c=>{const n=c.getChildCount();const s=n<10?34:n<50?40:46;
@@ -183,6 +228,10 @@ function popupHtml(b){
     ${rec}
     ${note}
     <a class="ig" href="${esc(ig)}" target="_blank" rel="noopener">◎ ${igLabel}</a>
+    <div class="report">
+      <button onclick="window.reportClosed(${b._id})">⚐ Report closed</button>
+      <button onclick="window.suggestLocation(${b._id})">📍 Move pin</button>
+    </div>
   </div>`;}
 
 function build(){
@@ -234,7 +283,28 @@ function buildControls(){
   fillCities();
   csel.onchange=()=>{state.country=csel.value;state.city="";fillCities();apply();zoomToFiltered();};
   citysel.onchange=()=>{state.city=citysel.value;apply();zoomToFiltered();};
-  document.getElementById("q").oninput=e=>{state.q=e.target.value;apply();};
+  const acEl=document.getElementById("ac");
+  function hideAC(){acEl.style.display="none";acEl.innerHTML="";}
+  function renderSuggest(q){
+    if(!q || q.length<1){hideAC();return;}
+    const ql=q.toLowerCase();
+    const matches=MARKERS.filter(m=>m._bar.bar.toLowerCase().includes(ql)).slice(0,8);
+    if(!matches.length){hideAC();return;}
+    acEl.innerHTML=matches.map((m,i)=>{const b=m._bar;
+      return `<div class="ac-item" data-i="${i}"><span class="dot" style="background:${GHEX[b.grade]}"></span>`+
+             `<span class="acn">${esc(b.bar)}</span><span class="acc">${esc(b.city)} · ${b.grade}</span></div>`;}).join("");
+    acEl.style.display="block";
+    [...acEl.children].forEach((el,i)=>el.onclick=()=>selectBar(matches[i]));
+  }
+  function selectBar(m){
+    const b=m._bar;
+    state.q=b.bar; state.country=""; state.city=""; state.grades=new Set(GRADES);
+    document.getElementById("q").value=b.bar; csel.value=""; fillCities(); syncGradeChips();
+    apply(); hideAC(); document.getElementById("panel").classList.remove("open");
+    cluster.zoomToShowLayer(m,()=>{ map.setView(m.getLatLng(),16,{animate:true}); m.openPopup(); });
+  }
+  document.getElementById("q").oninput=e=>{state.q=e.target.value;apply();renderSuggest(e.target.value);};
+  document.addEventListener("click",e=>{ if(!e.target.closest(".searchwrap")) hideAC(); });
   document.getElementById("reset").onclick=()=>{
     state.q="";state.country="";state.city="";state.grades=new Set(GRADES);
     document.getElementById("q").value="";csel.value="";fillCities();
@@ -247,8 +317,53 @@ function buildControls(){
   document.getElementById("fbtn").onclick=()=>document.getElementById("panel").classList.toggle("open");
 }
 
+// ---- Crowd reports (Formspree) ----
+const FORMSPREE="https://formspree.io/f/xykqgwzv";
+function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t.classList.add("open");setTimeout(()=>t.classList.remove("open"),2800);}
+function sendReport(payload){return fetch(FORMSPREE,{method:"POST",headers:{"Accept":"application/json","Content-Type":"application/json"},body:JSON.stringify(payload)}).then(r=>{if(!r.ok)throw 0;});}
+function closeModal(){document.getElementById("modalbg").classList.remove("open");}
+window.__closeModal=closeModal;
+document.getElementById("modalbg").addEventListener("click",e=>{if(e.target.id==="modalbg")closeModal();});
+
+window.reportClosed=function(id){
+  const b=BARS[id];
+  document.getElementById("modal").innerHTML=
+    `<h3>Report permanently closed</h3>
+     <p class="mtxt"><b>${esc(b.bar)}</b> · ${esc(b.city)}, ${esc(b.country)}</p>
+     <textarea id="mnote" placeholder="How do you know? (optional)"></textarea>
+     <input type="text" id="mhp" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off" aria-hidden="true">
+     <div class="mbtns"><button class="mcancel" onclick="window.__closeModal()">Cancel</button><button class="msend" id="msend">Send report</button></div>`;
+  document.getElementById("modalbg").classList.add("open");
+  document.getElementById("msend").onclick=function(){
+    if(document.getElementById("mhp").value){closeModal();return;}
+    const btn=this; btn.textContent="Sending…"; btn.disabled=true;
+    sendReport({_subject:`CLOSED report: ${b.bar} (${b.city})`,report_type:"PERMANENTLY CLOSED",bar:b.bar,city:b.city,country:b.country,grade:b.grade,note:document.getElementById("mnote").value})
+      .then(()=>{closeModal();toast("Thanks — report sent ✓");})
+      .catch(()=>{btn.textContent="Try again";btn.disabled=false;});
+  };
+};
+
+function endLoc(){ if(window.__loc){map.removeLayer(window.__loc.marker);window.__loc=null;} document.getElementById("locbar").classList.remove("open"); }
+window.suggestLocation=function(id){
+  const b=BARS[id]; map.closePopup();
+  if(window.__loc){map.removeLayer(window.__loc.marker);}
+  const mk=L.marker([b.lat,b.lon],{draggable:true,zIndexOffset:1000,icon:pinIcon(b.grade)}).addTo(map);
+  map.setView([b.lat,b.lon],Math.max(map.getZoom(),15),{animate:true});
+  window.__loc={marker:mk,id};
+  document.getElementById("loctext").innerHTML=`Drag the pin for <b>${esc(b.bar)}</b> to its correct spot, then Submit.`;
+  document.getElementById("locbar").classList.add("open");
+};
+document.getElementById("loccancel").onclick=endLoc;
+document.getElementById("locsubmit").onclick=function(){
+  if(!window.__loc)return; const b=BARS[window.__loc.id]; const ll=window.__loc.marker.getLatLng();
+  const btn=this; btn.textContent="Sending…"; btn.disabled=true;
+  sendReport({_subject:`LOCATION fix: ${b.bar} (${b.city})`,report_type:"LOCATION CORRECTION",bar:b.bar,city:b.city,country:b.country,old_coords:`${b.lat}, ${b.lon}`,proposed_coords:`${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}`,google_maps:`https://www.google.com/maps?q=${ll.lat},${ll.lng}`})
+    .then(()=>{btn.textContent="Submit location";btn.disabled=false;endLoc();toast("Thanks — location sent ✓");})
+    .catch(()=>{btn.textContent="Try again";btn.disabled=false;});
+};
+
 fetch("bars.json").then(r=>r.json()).then(data=>{
-  BARS=data;build();buildControls();apply();
+  BARS=data;BARS.forEach((b,i)=>b._id=i);build();buildControls();apply();
   if(cluster.getLayers().length)map.fitBounds(cluster.getBounds().pad(.1));
 }).catch(e=>{document.getElementById("cnt").textContent="error loading data";console.error(e);});
 </script>
