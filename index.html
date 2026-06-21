@@ -217,7 +217,7 @@ function popupHtml(b){
   const note=hasIg?"":`<div class="note">No official review posted yet</div>`;
   const rec=b.rec?`<div class="rec"><b>Recommendation:</b> ${esc(b.rec)}</div>`:"";
   return `<div class="pp">
-    <div class="name">${esc(b.bar)}</div>
+    <div class="name">${esc(b.bar)}${b.alt?` / ${esc(b.alt)}`:""}</div>
     <div class="loc">${esc(b.city)}, ${esc(b.country)}</div>
     <span class="gbadge" style="background:${GHEX[b.grade]}">${b.grade==="NP"?"No post":b.grade} · ${b.total}/30</span>
     <div class="scores">
@@ -227,10 +227,12 @@ function popupHtml(b){
     </div>
     ${rec}
     ${note}
+    ${b.geo==="exact"?"":(b.country==="China"
+      ? `<div class="note">📍 No exact location available — use DaZhongDianPing (<a href="https://www.dianping.com/" target="_blank" rel="noopener" style="color:var(--accent)">大众点评</a>) to find location</div>`
+      : `<div class="note">📍 Approximate location${b.geo==="district"?" — district center":""}; exact spot not available</div>`)}
     <a class="ig" href="${esc(ig)}" target="_blank" rel="noopener">◎ ${igLabel}</a>
     <div class="report">
-      <button onclick="window.reportClosed(${b._id})">⚐ Report closed</button>
-      <button onclick="window.suggestLocation(${b._id})">📍 Move pin</button>
+      <button onclick="window.reportClosed(${b._id})">⚐ Report permanently closed</button>
     </div>
   </div>`;}
 
