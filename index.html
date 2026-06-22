@@ -198,18 +198,20 @@ const GHEX={"A+":"#d4af37","A":"#2e9e4f","A-":"#7cc46a","B+":"#1f7ae0","B":"#4aa
   "B-":"#9fc8f5","C+":"#f08a24","C":"#e8601c","C-":"#d23b3b","NP":"#9aa0a6"};
 const IG_FALLBACK="https://instagram.com/aplus_barguide";
 
-const WATER="#eaf0f3", LAND="#d3dbe0", BORDER="#bcc6cd";
+const WATER="#eaf0f3", LAND="#0e1116", BORDER="#39404a";
 const map=L.map("map",{zoomControl:true,minZoom:2,maxBounds:[[-58,-180],[84,180]],maxBoundsViscosity:1.0,worldCopyJump:false}).setView([25,15],2);
 // Vector world: near-white water (the #map background) + light land polygons.
 // Removes Antarctica + Greenland (by name) and any island lying entirely north of 66°N
 // (Canadian Arctic Archipelago, Svalbard, etc.) — mainland coastlines are kept intact.
 function ringMinLat(ring){let m=90;for(const c of ring){if(c[1]<m)m=c[1];}return m;}
-function dropArcticIslands(geo){
-  const N=66;
+function ringLonSpan(ring){let mn=180,mx=-180;for(const c of ring){if(c[0]<mn)mn=c[0];if(c[0]>mx)mx=c[0];}return mx-mn;}
+function cleanWorld(geo){
+  const N=66; // keep a polygon only if it's not all-Arctic AND doesn't wrap the antimeridian (which draws a line across the map)
+  const keep=poly=>ringMinLat(poly[0])<N && ringLonSpan(poly[0])<180;
   for(const f of geo.features){
     const g=f.geometry; if(!g) continue;
-    if(g.type==="Polygon"){ if(ringMinLat(g.coordinates[0])>=N) g.coordinates=[]; }
-    else if(g.type==="MultiPolygon"){ g.coordinates=g.coordinates.filter(p=>ringMinLat(p[0])<N); }
+    if(g.type==="Polygon"){ if(!keep(g.coordinates)) g.coordinates=[]; }
+    else if(g.type==="MultiPolygon"){ g.coordinates=g.coordinates.filter(keep); }
   }
   geo.features=geo.features.filter(f=>f.geometry && f.geometry.coordinates && f.geometry.coordinates.length);
   return geo;
@@ -219,7 +221,7 @@ fetch("https://unpkg.com/world-atlas@2/countries-110m.json")
   .then(topo=>{
     let geo=topojson.feature(topo,topo.objects.countries);
     geo.features=geo.features.filter(f=>{const n=f.properties&&f.properties.name;return n!=="Antarctica"&&n!=="Greenland";});
-    geo=dropArcticIslands(geo);
+    geo=cleanWorld(geo);
     L.geoJSON(geo,{interactive:false,style:{fillColor:LAND,fillOpacity:1,color:BORDER,weight:0.6}}).addTo(map);
   })
   .catch(e=>console.error("world map load failed",e));
