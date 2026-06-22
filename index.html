@@ -25,14 +25,14 @@
   }
   *{box-sizing:border-box}
   html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt)}
-  #map{position:absolute;inset:0;z-index:1;background:#0b0d10}
+  #map{position:absolute;inset:0;z-index:1;background:#eaf0f3}
 
   /* Header */
   .topbar{position:absolute;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;gap:10px;
     padding:10px 14px;background:linear-gradient(180deg,rgba(15,17,21,.96),rgba(15,17,21,.78) 70%,rgba(15,17,21,0));pointer-events:none}
   .brand{pointer-events:auto;display:flex;align-items:center;gap:10px}
-  .brand .mark{width:34px;height:34px;border-radius:9px;background:var(--accent);color:#1a1300;font-weight:800;
-    display:flex;align-items:center;justify-content:center;font-size:17px;box-shadow:0 2px 10px rgba(0,0,0,.4)}
+  .brand .mark{width:40px;height:40px;border-radius:50%;display:block;object-fit:cover;
+    box-shadow:0 2px 10px rgba(0,0,0,.45);background:#15101f}
   .brand h1{font-size:16px;margin:0;font-weight:700;letter-spacing:.2px}
   .brand a{color:var(--muted);text-decoration:none;font-size:12px}
   .brand a:hover{color:var(--accent)}
@@ -134,7 +134,7 @@
     .brand h1{font-size:14px}
     .count{display:none}
   }
-  .credit{position:absolute;bottom:6px;right:8px;z-index:1000;font-size:10px;color:var(--muted);opacity:.7}
+  .credit{position:absolute;bottom:6px;right:8px;z-index:1000;font-size:10px;color:#6b7682;opacity:.85}
 </style>
 </head>
 <body>
@@ -142,7 +142,7 @@
 
 <div class="topbar">
   <div class="brand">
-    <div class="mark">A+</div>
+    <img class="mark" alt="A+ Bar Guide logo" src="data:image/png;base64,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">
     <div>
       <h1>A+ Bar Guide</h1>
       <a href="https://instagram.com/aplus_barguide" target="_blank" rel="noopener">@aplus_barguide ↗</a>
@@ -189,6 +189,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
 <script>
 const GRADES=["A+","A","A-","B+","B","B-","C+","C","C-","NP"];
 const GCOLOR={"A+":"var(--gA1)","A":"var(--gA)","A-":"var(--gAm)","B+":"var(--gB1)","B":"var(--gB)",
@@ -197,9 +198,31 @@ const GHEX={"A+":"#d4af37","A":"#2e9e4f","A-":"#7cc46a","B+":"#1f7ae0","B":"#4aa
   "B-":"#9fc8f5","C+":"#f08a24","C":"#e8601c","C-":"#d23b3b","NP":"#9aa0a6"};
 const IG_FALLBACK="https://instagram.com/aplus_barguide";
 
-const map=L.map("map",{zoomControl:true,worldCopyJump:true}).setView([25,30],2);
-L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{
-  attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:"abcd",maxZoom:19}).addTo(map);
+const WATER="#eaf0f3", LAND="#d3dbe0", BORDER="#bcc6cd";
+const map=L.map("map",{zoomControl:true,minZoom:2,maxBounds:[[-58,-180],[84,180]],maxBoundsViscosity:1.0,worldCopyJump:false}).setView([25,15],2);
+// Vector world: near-white water (the #map background) + light land polygons.
+// Removes Antarctica + Greenland (by name) and any island lying entirely north of 66°N
+// (Canadian Arctic Archipelago, Svalbard, etc.) — mainland coastlines are kept intact.
+function ringMinLat(ring){let m=90;for(const c of ring){if(c[1]<m)m=c[1];}return m;}
+function dropArcticIslands(geo){
+  const N=66;
+  for(const f of geo.features){
+    const g=f.geometry; if(!g) continue;
+    if(g.type==="Polygon"){ if(ringMinLat(g.coordinates[0])>=N) g.coordinates=[]; }
+    else if(g.type==="MultiPolygon"){ g.coordinates=g.coordinates.filter(p=>ringMinLat(p[0])<N); }
+  }
+  geo.features=geo.features.filter(f=>f.geometry && f.geometry.coordinates && f.geometry.coordinates.length);
+  return geo;
+}
+fetch("https://unpkg.com/world-atlas@2/countries-110m.json")
+  .then(r=>r.json())
+  .then(topo=>{
+    let geo=topojson.feature(topo,topo.objects.countries);
+    geo.features=geo.features.filter(f=>{const n=f.properties&&f.properties.name;return n!=="Antarctica"&&n!=="Greenland";});
+    geo=dropArcticIslands(geo);
+    L.geoJSON(geo,{interactive:false,style:{fillColor:LAND,fillOpacity:1,color:BORDER,weight:0.6}}).addTo(map);
+  })
+  .catch(e=>console.error("world map load failed",e));
 
 const cluster=L.markerClusterGroup({maxClusterRadius:45,spiderfyOnMaxZoom:true,showCoverageOnHover:false,
   iconCreateFunction:c=>{const n=c.getChildCount();const s=n<10?34:n<50?40:46;
