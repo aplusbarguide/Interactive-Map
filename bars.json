@@ -83,7 +83,7 @@
     "svc": 7.0,
     "total": 24.0,
     "grade": "B+",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DAXQW0WNJFP/",
     "lat": -33.87466,
     "lon": 151.206134,
@@ -293,7 +293,7 @@
     "svc": 8.5,
     "total": 26.0,
     "grade": "A-",
-    "rec": "La R\u00e9colte",
+    "rec": "La Récolte",
     "ig": "https://www.instagram.com/p/DKnNaJ3ppt9/",
     "lat": 45.481419,
     "lon": -73.578344,
@@ -308,7 +308,7 @@
     "svc": 7.5,
     "total": 24.0,
     "grade": "B+",
-    "rec": "Le Petit \u00c9l\u00e9phant",
+    "rec": "Le Petit Éléphant",
     "ig": "https://www.instagram.com/p/DKlWiQOM5L2/",
     "lat": 45.507076,
     "lon": -73.553516,
@@ -323,7 +323,7 @@
     "svc": 9.0,
     "total": 27.0,
     "grade": "A",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DKpwxH0RqkC/",
     "lat": 45.499465,
     "lon": -73.577842,
@@ -413,7 +413,7 @@
     "svc": 9.0,
     "total": 29.0,
     "grade": "A+",
-    "rec": "Overhead Tonnage, W.A.P\u2011tini, Equilibrium",
+    "rec": "Overhead Tonnage, W.A.P‑tini, Equilibrium",
     "ig": "https://www.instagram.com/p/DLstmOixkB2/",
     "lat": 43.646789,
     "lon": -79.398721,
@@ -546,7 +546,7 @@
     "svc": 8.5,
     "total": 26.5,
     "grade": "A-",
-    "rec": "\u6843\u4e4b\u592d\u592d\uff08tao zhi yao yao\uff09",
+    "rec": "桃之夭夭（tao zhi yao yao）",
     "ig": "https://www.instagram.com/p/C8Ko8GaOQ__/",
     "lat": 39.9072,
     "lon": 116.4074
@@ -646,7 +646,7 @@
     "svc": 8.0,
     "total": 26.5,
     "grade": "A-",
-    "rec": "Don\u2019t Worry, Up In Yunnan, Chinatown",
+    "rec": "Don’t Worry, Up In Yunnan, Chinatown",
     "ig": "https://www.instagram.com/p/DY-b9qEmh3u/",
     "lat": 30.56159,
     "lon": 104.064497
@@ -660,7 +660,7 @@
     "svc": 9.0,
     "total": 25.5,
     "grade": "A-",
-    "rec": "if you\u2019re adventurous \u2013 Wormhole Study",
+    "rec": "if you’re adventurous – Wormhole Study",
     "ig": "https://www.instagram.com/p/DY6GDWslhO8/",
     "lat": 30.578909,
     "lon": 104.076054
@@ -730,7 +730,7 @@
     "svc": 8.5,
     "total": 23.0,
     "grade": "B",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DZEeVnHlqzc/",
     "lat": 29.427504,
     "lon": 106.916608
@@ -744,7 +744,7 @@
     "svc": 8.0,
     "total": 24.0,
     "grade": "B+",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DZGLpRBmo8K/",
     "lat": 29.432227,
     "lon": 106.904098
@@ -816,7 +816,7 @@
     "svc": 7.5,
     "total": 20.5,
     "grade": "C+",
-    "rec": "Ramos Gin Fizz \u2013 any flavor",
+    "rec": "Ramos Gin Fizz – any flavor",
     "ig": "https://www.instagram.com/p/DYdCa_nEeRD/",
     "lat": 23.129279,
     "lon": 113.356497,
@@ -976,7 +976,7 @@
     "svc": 9.0,
     "total": 26.0,
     "grade": "A-",
-    "rec": "Speak Loud (Shinto\u2019s award winning rum-milk tea), Midnight coffee vesper",
+    "rec": "Speak Loud (Shinto’s award winning rum-milk tea), Midnight coffee vesper",
     "ig": "https://www.instagram.com/p/C8u5e-ROAc6/",
     "lat": 31.221984,
     "lon": 121.470412,
@@ -1227,7 +1227,7 @@
     "svc": 7.0,
     "total": 24.5,
     "grade": "B+",
-    "rec": "Any of their classic inventions \u2014 Bloody Mary, Sidecar, French 75, or Boulevardier.",
+    "rec": "Any of their classic inventions — Bloody Mary, Sidecar, French 75, or Boulevardier.",
     "ig": "https://www.instagram.com/p/DQaxuX9kUHX/",
     "lat": 48.869202,
     "lon": 2.332069,
@@ -1287,7 +1287,7 @@
     "svc": 8.0,
     "total": 24.0,
     "grade": "B+",
-    "rec": "Tough Guys Don\u2019t Dance",
+    "rec": "Tough Guys Don’t Dance",
     "ig": "https://www.instagram.com/p/DOMfmfOkWdC/",
     "lat": 50.940832,
     "lon": 6.941934,
@@ -1804,7 +1804,7 @@
     "geo": "exact"
   },
   {
-    "bar": "MAG Caf\u00e9",
+    "bar": "MAG Café",
     "city": "Milan",
     "country": "Italy",
     "atm": 8.5,
@@ -1977,7 +1977,7 @@
     "svc": 8.0,
     "total": 25.0,
     "grade": "B+",
-    "rec": "Bartender\u2019s choice",
+    "rec": "Bartender’s choice",
     "ig": "https://www.instagram.com/p/DIev1OuueLe/",
     "lat": 34.672034,
     "lon": 135.498379,
@@ -1992,7 +1992,7 @@
     "svc": 9.0,
     "total": 27.0,
     "grade": "A",
-    "rec": "Bartender\u2019s choice",
+    "rec": "Bartender’s choice",
     "ig": "https://www.instagram.com/p/DIZzNN3uHeR/",
     "lat": 34.673197,
     "lon": 135.503318,
@@ -2022,7 +2022,7 @@
     "svc": 7.5,
     "total": 20.0,
     "grade": "C+",
-    "rec": "Bartender\u2019s choice",
+    "rec": "Bartender’s choice",
     "ig": "https://www.instagram.com/p/DIh0Ey3swd_/",
     "lat": 34.673854,
     "lon": 135.498545,
@@ -2247,14 +2247,14 @@
     "svc": 9.0,
     "total": 24.0,
     "grade": "B+",
-    "rec": "Use rubik\u2019s cube",
+    "rec": "Use rubik’s cube",
     "ig": "https://www.instagram.com/p/DL3KqTnOEni/",
     "lat": 19.412902,
     "lon": -99.167811,
     "geo": "exact"
   },
   {
-    "bar": "Caf\u00e9 de Nadie",
+    "bar": "Café de Nadie",
     "city": "Mexico City",
     "country": "Mexico",
     "atm": 8.5,
@@ -2292,7 +2292,7 @@
     "svc": 10.0,
     "total": 29.0,
     "grade": "A+",
-    "rec": "Once upon a time in Oaxaca (both rooms), Banana Split (only in \u201cHandshake\u201d)",
+    "rec": "Once upon a time in Oaxaca (both rooms), Banana Split (only in “Handshake”)",
     "ig": "https://www.instagram.com/p/DDXp-v1ppa8/",
     "lat": 19.424378,
     "lon": -99.164873,
@@ -2352,7 +2352,7 @@
     "svc": 7.0,
     "total": 23.0,
     "grade": "B",
-    "rec": "Apple (\u201cless\u201d), Berry (\u201cmore\u201d)",
+    "rec": "Apple (“less”), Berry (“more”)",
     "ig": "https://www.instagram.com/p/DDSmCTZpRnV/",
     "lat": 19.421225,
     "lon": -99.169637,
@@ -2382,7 +2382,7 @@
     "svc": 8.0,
     "total": 24.0,
     "grade": "B+",
-    "rec": "\u201c6\u201d",
+    "rec": "“6”",
     "ig": "https://www.instagram.com/p/DDDUiAtRcvq/",
     "lat": 19.418252,
     "lon": -99.169491,
@@ -2412,7 +2412,7 @@
     "svc": 6.0,
     "total": 20.0,
     "grade": "C+",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DAhBCK8psYf/",
     "lat": -36.845183,
     "lon": 174.769421,
@@ -2427,7 +2427,7 @@
     "svc": 6.0,
     "total": 21.0,
     "grade": "B-",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DAkPKkOspny/",
     "lat": -36.857107,
     "lon": 174.748486,
@@ -2892,7 +2892,7 @@
     "svc": 9.0,
     "total": 27.5,
     "grade": "A",
-    "rec": "Nutmeg & Clove (fizz), Dragon\u2019s Martini",
+    "rec": "Nutmeg & Clove (fizz), Dragon’s Martini",
     "ig": "https://www.instagram.com/p/DFeEoWwMWcQ/",
     "lat": 1.296713,
     "lon": 103.85522,
@@ -2952,7 +2952,7 @@
     "svc": 6.0,
     "total": 20.5,
     "grade": "C+",
-    "rec": "Apple Pie \u00e0 la Russe",
+    "rec": "Apple Pie à la Russe",
     "ig": "https://www.instagram.com/p/DFbL4h6R4Ae/",
     "lat": 1.284272,
     "lon": 103.851101,
@@ -3012,7 +3012,7 @@
     "svc": 9.0,
     "total": 26.0,
     "grade": "A-",
-    "rec": "Bartender\u2019s choice",
+    "rec": "Bartender’s choice",
     "ig": "https://www.instagram.com/p/DI45eCbt19d/",
     "lat": 35.15542,
     "lon": 129.120416,
@@ -3057,7 +3057,7 @@
     "svc": 10.0,
     "total": 29.0,
     "grade": "A+",
-    "rec": "literally any cocktail was delicious. Try \u201cMake Me Bigger\u201d",
+    "rec": "literally any cocktail was delicious. Try “Make Me Bigger”",
     "ig": "https://www.instagram.com/p/C_6CB0WORXg/",
     "lat": 37.526687,
     "lon": 127.040951,
@@ -3267,7 +3267,7 @@
     "svc": 8.0,
     "total": 23.0,
     "grade": "B",
-    "rec": "Eliasson\u2019s Spritz",
+    "rec": "Eliasson’s Spritz",
     "ig": "https://www.instagram.com/p/DQBFkahjHPj/",
     "lat": 41.383176,
     "lon": 2.181254,
@@ -3372,7 +3372,7 @@
     "svc": 9.0,
     "total": 27.5,
     "grade": "A",
-    "rec": "Ron Con Tomato, Devil\u2019s Adonis, Jam\u00f3n Ib\u00e9rico Fashioned",
+    "rec": "Ron Con Tomato, Devil’s Adonis, Jamón Ibérico Fashioned",
     "ig": "https://www.instagram.com/p/DPzSrR7ka2C/",
     "lat": 40.414585,
     "lon": -3.698478,
@@ -3402,7 +3402,7 @@
     "svc": 8.5,
     "total": 25.5,
     "grade": "A-",
-    "rec": "Tropical Vieux Carr\u00e9, Tiki Guru 2.0",
+    "rec": "Tropical Vieux Carré, Tiki Guru 2.0",
     "ig": "https://www.instagram.com/p/DPsDjNyEUL9/",
     "lat": 40.414893,
     "lon": -3.69952,
@@ -3537,7 +3537,7 @@
     "svc": 6.0,
     "total": 21.5,
     "grade": "B-",
-    "rec": "Can\u2019t go wrong with any drink from the signature Region-map-menu",
+    "rec": "Can’t go wrong with any drink from the signature Region-map-menu",
     "ig": "https://www.instagram.com/p/DEcz207uznv/",
     "lat": 25.044853,
     "lon": 121.505248,
@@ -3597,7 +3597,7 @@
     "svc": 9.0,
     "total": 27.0,
     "grade": "A",
-    "rec": "Sacred Tree Spirit, The Cat\u2019s Taipei Infinite Stations",
+    "rec": "Sacred Tree Spirit, The Cat’s Taipei Infinite Stations",
     "ig": "https://www.instagram.com/p/DEniyaKpj0U/",
     "lat": 25.043054,
     "lon": 121.548162,
@@ -3786,7 +3786,7 @@
   {
     "bar": "El Malo",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.5,
     "drk": 7.5,
     "svc": 9.0,
@@ -3801,7 +3801,7 @@
   {
     "bar": "JoJo's Beloved",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 6.0,
     "svc": 6.0,
@@ -3816,7 +3816,7 @@
   {
     "bar": "Kimball House",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 7.0,
     "svc": 8.0,
@@ -3831,7 +3831,7 @@
   {
     "bar": "MidCity",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 9.0,
     "svc": 8.0,
@@ -3846,7 +3846,7 @@
   {
     "bar": "Ranger Station",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 5.0,
     "svc": 5.0,
@@ -3861,7 +3861,7 @@
   {
     "bar": "Red Phone Booth",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 9.0,
     "svc": 8.5,
@@ -3876,7 +3876,7 @@
   {
     "bar": "S.O.S Tiki Bar",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.5,
     "drk": 7.5,
     "svc": 8.0,
@@ -3891,7 +3891,7 @@
   {
     "bar": "Ticonderoga Club",
     "city": "Atlanta",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.5,
     "drk": 7.5,
     "svc": 8.0,
@@ -3906,7 +3906,7 @@
   {
     "bar": "DuMont's Down Low",
     "city": "Austin, Texas",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 7.0,
     "svc": 7.0,
@@ -3921,7 +3921,7 @@
   {
     "bar": "Eden",
     "city": "Austin, Texas",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 8.0,
     "svc": 8.5,
@@ -3936,7 +3936,7 @@
   {
     "bar": "Here Nor There",
     "city": "Austin, Texas",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 10.0,
     "svc": 7.0,
@@ -3951,7 +3951,7 @@
   {
     "bar": "In Plain Sight",
     "city": "Austin, Texas",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.0,
     "svc": 7.5,
@@ -3966,7 +3966,7 @@
   {
     "bar": "Midnight Cowboy",
     "city": "Austin, Texas",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.5,
     "svc": 6.0,
@@ -3981,7 +3981,7 @@
   {
     "bar": "Zanzibar",
     "city": "Austin, Texas",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 6.5,
     "svc": 7.5,
@@ -3996,7 +3996,7 @@
   {
     "bar": "Kumiko",
     "city": "Chicago",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.0,
     "svc": 9.0,
@@ -4011,7 +4011,7 @@
   {
     "bar": "Meadowlark",
     "city": "Chicago",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 9.0,
     "svc": 8.0,
@@ -4026,7 +4026,7 @@
   {
     "bar": "The Milk Room",
     "city": "Chicago",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.0,
     "svc": 8.0,
@@ -4041,7 +4041,7 @@
   {
     "bar": "The Office",
     "city": "Chicago",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 7.0,
     "svc": 6.0,
@@ -4056,7 +4056,7 @@
   {
     "bar": "Three Dots and a Dash",
     "city": "Chicago",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.5,
     "svc": 9.5,
@@ -4071,7 +4071,7 @@
   {
     "bar": "Ghost Baby",
     "city": "Cincinnati",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.5,
     "svc": 7.0,
@@ -4086,7 +4086,7 @@
   {
     "bar": "Somerset Bar",
     "city": "Cincinnati",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 8.0,
     "svc": 9.5,
@@ -4101,7 +4101,7 @@
   {
     "bar": "Knowledge Bar",
     "city": "Covington, Kentucky",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 10.0,
     "svc": 7.0,
@@ -4116,7 +4116,7 @@
   {
     "bar": "Second Story",
     "city": "Covington, Kentucky",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 7.0,
     "svc": 6.0,
@@ -4131,7 +4131,7 @@
   {
     "bar": "Apothecary",
     "city": "Dallas",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 8.5,
     "svc": 8.0,
@@ -4146,7 +4146,7 @@
   {
     "bar": "Bar Colette",
     "city": "Dallas",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 8.5,
     "svc": 5.0,
@@ -4159,15 +4159,15 @@
     "geo": "exact"
   },
   {
-    "bar": "Cach\u00e9",
+    "bar": "Caché",
     "city": "Dallas",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.0,
     "svc": 8.0,
     "total": 26.0,
     "grade": "A-",
-    "rec": "Barrel Aged Vieux Carr\u00e9",
+    "rec": "Barrel Aged Vieux Carré",
     "ig": "",
     "lat": 32.797818,
     "lon": -96.801557,
@@ -4176,7 +4176,7 @@
   {
     "bar": "Ginger's",
     "city": "Dallas",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 8.5,
     "svc": 7.0,
@@ -4191,7 +4191,7 @@
   {
     "bar": "Parliament",
     "city": "Dallas",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 8.5,
     "svc": 8.0,
@@ -4206,7 +4206,7 @@
   {
     "bar": "1922",
     "city": "El Paso",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 7.0,
     "svc": 6.0,
@@ -4221,7 +4221,7 @@
   {
     "bar": "Unit B Speakeasy",
     "city": "Fort Lauderdale, Florida",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 7.5,
     "svc": 7.0,
@@ -4236,7 +4236,7 @@
   {
     "bar": "Anvil",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 8.5,
     "svc": 8.0,
@@ -4251,7 +4251,7 @@
   {
     "bar": "Bad News Bar",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 8.5,
     "svc": 9.0,
@@ -4266,7 +4266,7 @@
   {
     "bar": "Bandista",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.5,
     "svc": 9.5,
@@ -4281,7 +4281,7 @@
   {
     "bar": "Bar Doko",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.0,
     "svc": 9.0,
@@ -4296,7 +4296,7 @@
   {
     "bar": "Best Regards",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 6.0,
     "svc": 6.5,
@@ -4311,7 +4311,7 @@
   {
     "bar": "Better Luck Tomorrow",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.5,
     "drk": 8.0,
     "svc": 8.0,
@@ -4326,7 +4326,7 @@
   {
     "bar": "Casa Nomad",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 9.0,
     "svc": 8.5,
@@ -4341,7 +4341,7 @@
   {
     "bar": "Clarkwood",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 9.0,
     "svc": 8.0,
@@ -4356,7 +4356,7 @@
   {
     "bar": "Concrete Rose",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.5,
     "drk": 8.5,
     "svc": 9.0,
@@ -4371,7 +4371,7 @@
   {
     "bar": "Diversion",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 7.5,
     "svc": 8.5,
@@ -4386,7 +4386,7 @@
   {
     "bar": "H Bar",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.0,
     "drk": 8.5,
     "svc": 9.5,
@@ -4401,7 +4401,7 @@
   {
     "bar": "Hidden Bar",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.5,
     "svc": 8.5,
@@ -4416,7 +4416,7 @@
   {
     "bar": "Houston Watch Company",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.5,
     "drk": 8.5,
     "svc": 8.5,
@@ -4431,7 +4431,7 @@
   {
     "bar": "I Know The Owner",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 9.0,
     "svc": 8.0,
@@ -4446,7 +4446,7 @@
   {
     "bar": "Incanto",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 8.0,
     "svc": 7.5,
@@ -4461,7 +4461,7 @@
   {
     "bar": "Julep",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 4.0,
     "drk": 5.5,
     "svc": 7.0,
@@ -4476,7 +4476,7 @@
   {
     "bar": "Kanpai Club",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.0,
     "svc": 7.5,
@@ -4491,7 +4491,7 @@
   {
     "bar": "Lee's",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 7.0,
     "svc": 7.0,
@@ -4506,7 +4506,7 @@
   {
     "bar": "Permission",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 8.5,
     "svc": 5.0,
@@ -4521,7 +4521,7 @@
   {
     "bar": "Refuge",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.0,
     "svc": 10.0,
@@ -4536,7 +4536,7 @@
   {
     "bar": "Segreto",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 7.5,
     "svc": 7.0,
@@ -4551,7 +4551,7 @@
   {
     "bar": "The Podium",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 7.0,
     "svc": 6.0,
@@ -4566,7 +4566,7 @@
   {
     "bar": "The Toasted Coconut",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.0,
     "drk": 6.0,
     "svc": 6.0,
@@ -4581,7 +4581,7 @@
   {
     "bar": "Xolo",
     "city": "Houston",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 9.0,
     "svc": 9.0,
@@ -4596,7 +4596,7 @@
   {
     "bar": "Herbs & Rye",
     "city": "Las Vegas",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 6.0,
     "svc": 6.0,
@@ -4611,7 +4611,7 @@
   {
     "bar": "Accomplice Bar",
     "city": "Los Angeles",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 7.0,
     "svc": 7.0,
@@ -4626,7 +4626,7 @@
   {
     "bar": "Cara Cara",
     "city": "Los Angeles",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.0,
     "svc": 8.0,
@@ -4641,7 +4641,7 @@
   {
     "bar": "Death & Co",
     "city": "Los Angeles",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 7.0,
     "svc": 6.5,
@@ -4656,7 +4656,7 @@
   {
     "bar": "Thunderbolt",
     "city": "Los Angeles",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 7.0,
     "svc": 7.5,
@@ -4669,9 +4669,9 @@
     "geo": "exact"
   },
   {
-    "bar": "Caf\u00e9 La Trova",
+    "bar": "Café La Trova",
     "city": "Miami",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.5,
     "drk": 9.0,
     "svc": 10.0,
@@ -4686,7 +4686,7 @@
   {
     "bar": "Sweet Liberty",
     "city": "Miami",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 8.0,
     "svc": 6.0,
@@ -4701,7 +4701,7 @@
   {
     "bar": "Swizzle Rum Bar",
     "city": "Miami",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 3.0,
     "svc": 8.5,
@@ -4716,7 +4716,7 @@
   {
     "bar": "Amor Y amargo",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 7.0,
     "svc": 8.5,
@@ -4731,7 +4731,7 @@
   {
     "bar": "Angel's Share",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 8.5,
     "svc": 8.5,
@@ -4746,7 +4746,7 @@
   {
     "bar": "Attaboy",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 8.5,
     "svc": 8.0,
@@ -4761,13 +4761,13 @@
   {
     "bar": "Banzarbar",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 10.0,
     "svc": 8.5,
     "total": 27.5,
     "grade": "A",
-    "rec": "Shackleton\u2019s Urn",
+    "rec": "Shackleton’s Urn",
     "ig": "https://www.instagram.com/p/DA7X_IQNfpy/",
     "lat": 40.721984,
     "lon": -73.992446,
@@ -4776,7 +4776,7 @@
   {
     "bar": "Bar Contra",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 6.0,
     "svc": 6.0,
@@ -4791,7 +4791,7 @@
   {
     "bar": "Bathtub Gin",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 7.0,
     "svc": 7.0,
@@ -4806,7 +4806,7 @@
   {
     "bar": "Cibar",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 8.5,
     "svc": 8.5,
@@ -4821,7 +4821,7 @@
   {
     "bar": "Clemente Bar",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 8.5,
     "svc": 8.5,
@@ -4836,7 +4836,7 @@
   {
     "bar": "Dante NYC",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 5.0,
     "drk": 9.0,
     "svc": 10.0,
@@ -4851,7 +4851,7 @@
   {
     "bar": "Dear Irving",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 7.5,
     "svc": 8.5,
@@ -4866,7 +4866,7 @@
   {
     "bar": "Death & Co",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 8.0,
     "svc": 8.0,
@@ -4881,7 +4881,7 @@
   {
     "bar": "Double Chicken Please",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 9.0,
     "svc": 8.5,
@@ -4896,7 +4896,7 @@
   {
     "bar": "Employees Only",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.5,
     "drk": 7.0,
     "svc": 4.5,
@@ -4911,7 +4911,7 @@
   {
     "bar": "Katana Kitten",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 4.0,
     "drk": 7.5,
     "svc": 6.5,
@@ -4926,7 +4926,7 @@
   {
     "bar": "Little Ned",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 10.0,
     "drk": 9.5,
     "svc": 8.5,
@@ -4941,7 +4941,7 @@
   {
     "bar": "Martiny's",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 9.5,
     "svc": 9.0,
@@ -4956,7 +4956,7 @@
   {
     "bar": "Milady's",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.5,
     "drk": 8.5,
     "svc": 8.0,
@@ -4971,7 +4971,7 @@
   {
     "bar": "Nubeluz",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 10.0,
     "drk": 9.5,
     "svc": 9.5,
@@ -4986,7 +4986,7 @@
   {
     "bar": "Overstory",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 10.0,
     "drk": 7.0,
     "svc": 9.0,
@@ -5001,7 +5001,7 @@
   {
     "bar": "Sip & Guzzle",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.5,
     "drk": 9.0,
     "svc": 9.0,
@@ -5016,7 +5016,7 @@
   {
     "bar": "South Soho Bar",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 6.0,
     "drk": 7.0,
     "svc": 6.0,
@@ -5027,12 +5027,12 @@
     "lat": 40.718611,
     "lon": -73.999736,
     "geo": "exact",
-    "alt": "Soso\u2019s"
+    "alt": "Soso’s"
   },
   {
     "bar": "Superbueno",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 5.0,
     "drk": 5.0,
     "svc": 6.5,
@@ -5047,7 +5047,7 @@
   {
     "bar": "The Long Island Bar",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 5.0,
     "svc": 6.5,
@@ -5062,7 +5062,7 @@
   {
     "bar": "Undercote",
     "city": "New York City",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 10.0,
     "svc": 9.0,
@@ -5077,7 +5077,7 @@
   {
     "bar": "Grey Hen Rx",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.5,
     "drk": 9.0,
     "svc": 8.0,
@@ -5092,7 +5092,7 @@
   {
     "bar": "Highball",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 8.5,
     "svc": 8.0,
@@ -5107,7 +5107,7 @@
   {
     "bar": "Little Rituals",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 8.0,
     "svc": 8.5,
@@ -5122,7 +5122,7 @@
   {
     "bar": "Lux Central",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 9.0,
     "svc": 5.0,
@@ -5137,7 +5137,7 @@
   {
     "bar": "Platform 18",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 7.5,
     "svc": 8.0,
@@ -5152,7 +5152,7 @@
   {
     "bar": "Sunny's Lounge",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 5.5,
     "drk": 7.5,
     "svc": 7.0,
@@ -5167,7 +5167,7 @@
   {
     "bar": "Trophy Room",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.0,
     "svc": 8.0,
@@ -5182,7 +5182,7 @@
   {
     "bar": "Undertow",
     "city": "Phoenix",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 9.0,
     "svc": 8.5,
@@ -5197,7 +5197,7 @@
   {
     "bar": "Aunty Betty's",
     "city": "Raleigh",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.5,
     "drk": 7.0,
     "svc": 7.5,
@@ -5212,7 +5212,7 @@
   {
     "bar": "Foundation",
     "city": "Raleigh",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 7.0,
     "svc": 8.0,
@@ -5227,7 +5227,7 @@
   {
     "bar": "Sous Terre",
     "city": "Raleigh",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.5,
     "svc": 6.5,
@@ -5242,7 +5242,7 @@
   {
     "bar": "Bar 1919",
     "city": "San Antonio",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 7.5,
     "svc": 3.5,
@@ -5257,7 +5257,7 @@
   {
     "bar": "RD Hidden Speakeasy",
     "city": "San Antonio",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 6.0,
     "svc": 7.5,
@@ -5272,7 +5272,7 @@
   {
     "bar": "Captain's Quarters",
     "city": "San Diego",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 5.5,
     "svc": 7.0,
@@ -5287,7 +5287,7 @@
   {
     "bar": "False Idol",
     "city": "San Diego",
-    "country": "United States",
+    "country": "USA",
     "atm": 7.0,
     "drk": 7.0,
     "svc": 6.0,
@@ -5302,13 +5302,13 @@
   {
     "bar": "Noble Experiment",
     "city": "San Diego",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.0,
     "drk": 8.5,
     "svc": 8.0,
     "total": 24.5,
     "grade": "B+",
-    "rec": "Bartender\u2019s Choice",
+    "rec": "Bartender’s Choice",
     "ig": "https://www.instagram.com/p/DTUR6PyDPsL/",
     "lat": 32.712427,
     "lon": -117.157587,
@@ -5317,7 +5317,7 @@
   {
     "bar": "Raised By Wolves",
     "city": "San Diego",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 7.5,
     "svc": 6.0,
@@ -5332,7 +5332,7 @@
   {
     "bar": "Realm Of 52 Remedies",
     "city": "San Diego",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 7.5,
     "svc": 8.0,
@@ -5347,7 +5347,7 @@
   {
     "bar": "Young Blood",
     "city": "San Diego",
-    "country": "United States",
+    "country": "USA",
     "atm": 9.0,
     "drk": 8.5,
     "svc": 6.0,
@@ -5362,7 +5362,7 @@
   {
     "bar": "Canon",
     "city": "Seattle",
-    "country": "United States",
+    "country": "USA",
     "atm": 8.5,
     "drk": 9.0,
     "svc": 4.0,
