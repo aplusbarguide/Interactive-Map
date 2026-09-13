@@ -198,8 +198,8 @@ const IG_FALLBACK="https://instagram.com/aplus_barguide";
 
 const map=L.map("map",{zoomControl:false,worldCopyJump:true}).setView([25,30],2);
 L.control.zoom({position:"bottomright"}).addTo(map);   // moved off top-left so it doesn't sit behind the logo
-L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{
-  attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:"abcd",maxZoom:19}).addTo(map);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",{
+  attribution:'&copy; Esri &mdash; Esri, DeLorme, NAVTEQ',maxZoom:16}).addTo(map);
 
 const cluster=L.markerClusterGroup({maxClusterRadius:45,spiderfyOnMaxZoom:true,showCoverageOnHover:false,
   iconCreateFunction:c=>{const n=c.getChildCount();const s=n<10?34:n<50?40:46;
