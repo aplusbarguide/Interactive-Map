@@ -1279,21 +1279,6 @@
     "geo": "exact"
   },
   {
-    "bar": "The Grid Bar",
-    "city": "Cologne",
-    "country": "Germany",
-    "atm": 7.0,
-    "drk": 9.0,
-    "svc": 8.0,
-    "total": 24.0,
-    "grade": "B+",
-    "rec": "Tough Guys Don’t Dance",
-    "ig": "https://www.instagram.com/p/DOMfmfOkWdC/",
-    "lat": 50.940832,
-    "lon": 6.941934,
-    "geo": "exact"
-  },
-  {
     "bar": "Toddy Tapper",
     "city": "Cologne",
     "country": "Germany",
