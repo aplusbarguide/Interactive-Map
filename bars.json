@@ -120,21 +120,6 @@
     "geo": "exact"
   },
   {
-    "bar": "Double Deuce Lounge",
-    "city": "Sydney",
-    "country": "Australia",
-    "atm": 9.0,
-    "drk": 9.0,
-    "svc": 7.5,
-    "total": 25.5,
-    "grade": "A-",
-    "rec": "Talk of the Town",
-    "ig": "https://www.instagram.com/p/DAKseZrsmQk/",
-    "lat": -33.863427,
-    "lon": 151.207974,
-    "geo": "exact"
-  },
-  {
     "bar": "Maybe Sammy",
     "city": "Sydney",
     "country": "Australia",
@@ -2401,21 +2386,6 @@
     "ig": "https://www.instagram.com/p/DAhBCK8psYf/",
     "lat": -36.845183,
     "lon": 174.769421,
-    "geo": "exact"
-  },
-  {
-    "bar": "Deadshot",
-    "city": "Auckland",
-    "country": "New Zealand",
-    "atm": 7.0,
-    "drk": 8.0,
-    "svc": 6.0,
-    "total": 21.0,
-    "grade": "B-",
-    "rec": "Bartender’s Choice",
-    "ig": "https://www.instagram.com/p/DAkPKkOspny/",
-    "lat": -36.857107,
-    "lon": 174.748486,
     "geo": "exact"
   },
   {
