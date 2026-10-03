@@ -3829,21 +3829,6 @@
     "geo": "exact"
   },
   {
-    "bar": "Ranger Station",
-    "city": "Atlanta",
-    "country": "USA",
-    "atm": 8.5,
-    "drk": 5.0,
-    "svc": 5.0,
-    "total": 18.5,
-    "grade": "C",
-    "rec": "",
-    "ig": "",
-    "lat": 33.759638,
-    "lon": -84.364239,
-    "geo": "exact"
-  },
-  {
     "bar": "Red Phone Booth",
     "city": "Atlanta",
     "country": "USA",
@@ -4006,21 +3991,6 @@
     "ig": "https://www.instagram.com/p/C-LjIYBp5fE/",
     "lat": 41.921817,
     "lon": -87.697804,
-    "geo": "exact"
-  },
-  {
-    "bar": "The Milk Room",
-    "city": "Chicago",
-    "country": "USA",
-    "atm": 9.0,
-    "drk": 9.0,
-    "svc": 8.0,
-    "total": 26.0,
-    "grade": "A-",
-    "rec": "The Original Entrance (classy, old fashioned style)",
-    "ig": "",
-    "lat": 41.881662,
-    "lon": -87.624968,
     "geo": "exact"
   },
   {
@@ -4201,21 +4171,6 @@
     "ig": "https://www.instagram.com/p/DWHdi1eEQUJ/",
     "lat": 31.760859,
     "lon": -106.489847,
-    "geo": "exact"
-  },
-  {
-    "bar": "Unit B Speakeasy",
-    "city": "Fort Lauderdale, Florida",
-    "country": "USA",
-    "atm": 7.5,
-    "drk": 7.5,
-    "svc": 7.0,
-    "total": 22.0,
-    "grade": "B-",
-    "rec": "",
-    "ig": "",
-    "lat": 26.129288,
-    "lon": -80.137785,
     "geo": "exact"
   },
   {
