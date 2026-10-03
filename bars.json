@@ -5641,5 +5641,49 @@
     "svc": 8.0,
     "total": 24.0,
     "rec": "Rum Barrel"
+  },
+  {
+    "bar": "The Skip",
+    "city": "Detroit",
+    "country": "USA",
+    "grade": "NP",
+    "draft": true,
+    "ig": "",
+    "lat": 42.334633,
+    "lon": -83.0465162,
+    "geo": "exact"
+  },
+  {
+    "bar": "Shelby",
+    "city": "Detroit",
+    "country": "USA",
+    "grade": "NP",
+    "draft": true,
+    "ig": "",
+    "lat": 42.3292939,
+    "lon": -83.0484018,
+    "geo": "exact"
+  },
+  {
+    "bar": "Bad Luck Bar",
+    "city": "Detroit",
+    "country": "USA",
+    "grade": "NP",
+    "draft": true,
+    "ig": "",
+    "lat": 42.3331295,
+    "lon": -83.0488563,
+    "geo": "exact"
+  },
+  {
+    "bar": "Saksey’s",
+    "city": "Detroit",
+    "country": "USA",
+    "grade": "NP",
+    "draft": true,
+    "ig": "",
+    "lat": 42.3357699,
+    "lon": -83.0495399,
+    "geo": "exact"
   }
 ]
